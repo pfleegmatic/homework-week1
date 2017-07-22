@@ -1,0 +1,150 @@
+<--HW1 style css file-->
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+body {
+	background-color: white;
+	width: 960px;
+	 }
+
+.header {
+	text-align: center;
+	border: 1px solid powderblue;
+	margin-left: 200px;
+	font-family: 'Georgia', Times, Times New Roman,serif;
+	font-size: 30px;
+	font-weight: bold;
+
+	width: 30%;
+  	padding: 30px;
+  	color: #333;
+  	background: #4aaaa5;
+		}
+
+.nav1 {
+	font-style: arial;
+	width: 60px;
+	padding: 5px;
+
+	position: absolute;
+	left: 600px;
+    top: 50px;
+  
+  	color: #333;
+  	background: white;
+  	border: 1px solid powderblue;
+}
+
+.nav2 {
+	font-style: arial;
+	width: 60px;
+	padding: 5px;
+
+	position: absolute;
+	left: 700px;
+    top: 50px;
+  
+  	color: #333;
+  	background: white;
+  	border: 1px solid powderblue;
+}
+
+
+.nav3 {
+	position: absolute
+	font-style: arial;
+	width: 60px;
+	padding: 5px;
+
+	position: absolute;
+	left: 800px;
+    top: 50px;
+  
+  	color: #333;
+  	background: white;
+  	border: 1px solid powderblue;
+}
+
+
+
+.section {
+	
+	border-top: #dddddd;
+	border-top-width: 10px;
+	width: 960px;
+	height:650px;
+
+	position: relative;
+	
+	padding:20px;
+	margin-left: 20px;
+	
+	background: #cccccc;
+
+	}
+
+.article{
+	color: #4aaaa5;
+	font-style: 'Arial','Helvetica Neue', Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	border: 1px solid powderblue;
+	
+	position: absolute;
+	left: 50px;
+    top: 280px;
+
+
+	width: 440px;
+	height: 300px;
+	padding: 20px;
+	
+	background: white;
+
+}
+
+
+.aside {
+	color: #4aaaa5;
+	font-style: 'Arial','Helvetica Neue', Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	border: 1px solid powderblue;
+
+	position: absolute;
+	left: 550px;
+    top: 280px;
+
+	width: 270px;
+	height:250px;
+	padding:20px;
+
+	background: white;
+	
+
+}
+
+
+.footer {
+	position: relative;
+	text-align: center;
+	color: white;
+	width: 960px;
+
+	border-top: #4aaaa5;
+	border-top-width: 10px;
+
+	padding: 20px;
+  
+  	margin-left:20px;
+  	
+  	background: #666666;
+	clear: right;
+
+}
+
+

@@ -1,0 +1,127 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+{
+	font-size: 18px;
+	line-height: 30px;
+	color: #333;
+}
+
+body {
+	background-color: #777;
+	width: 960px;
+	 }
+
+.header {
+	border: 1px solid powderblue;
+	font-style: arial;
+  	padding: 30px;
+  	margin-bottom: 20px;
+  	color: #333;
+  	background: #ebebeb;
+		}
+
+.nav {
+	font-style: arial;
+	padding: 30px;
+  	margin-bottom: 20px;
+  	color: #333;
+  	background: #ebebeb;
+}
+
+
+
+.section {
+	font-style: arial;
+	position: relative;
+	width: 495px;
+	height:300px;
+
+	padding:20px;
+	margin-left: 20px;
+	
+	background: #ebebeb;
+
+	}
+
+.article{
+	font-style: arial;
+	border: 1px solid powderblue;
+	
+	position: absolute;
+	left: 50px;
+    top: 280px;
+
+
+	width: 440px;
+	height: 230px;
+	padding: 20px;
+	
+	background: #777;
+
+}
+
+.smallheaders{
+	font-style: helvetica;
+	
+	position: absolute;
+	left: 70px;
+    top: 330px;
+
+	width: 400px;
+	height: 60px;
+	padding: 20px;
+;
+	background: #ebebeb
+
+}
+
+.paragraph{
+	font-style: sans-serif;
+
+	position: absolute;
+	left: 70px;
+    top: 420px;
+
+	width: 400px;
+	height: 60px;
+	padding: 20px;
+
+	background: #ebebeb
+}
+
+
+.aside {
+	font-style: arial;
+
+	position: absolute;
+	left: 550px;
+    top: 225px;
+
+	width: 400px;
+	height:300px;
+	padding:30px;
+
+	background: #ebebeb;
+	
+
+}
+
+
+.footer {
+	float: relative;
+	padding: 20px;
+  	margin-bottom: 20px;
+  	color: #333;
+  	background: #ebebeb;
+	clear: right;
+
+}
+
+
